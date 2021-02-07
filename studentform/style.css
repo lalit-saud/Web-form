@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#00152e;
+	color: #fff;
+
+}
+h1{
+	background-color: #002147;
+	padding: 20px;
+	color: #fff;
+
+}
+.containeer{
+	background: #353c47;
+	padding: 10px;
+	width:800px;
+	height: 465px fixed;
+	margin: auto;
+	
+}
+table th, td{
+	border: 1px solid black;
+	padding:15px
+}
+
+.input-section{
+	padding: 10px;
+	float: left;
+	background-color:#424570;
+	width: 250px;
+	
+
+}
+
+.output-section{
+	padding: 10px;
+	background-color:#e9ecef;
+	float: right;
+	height: 445px;
+	width: 500px;
+	color: #000;
+	
+}
+.clear{
+	clear:both;
+}
+
+footer{
+	background: #00152e;
+	color: #fff;
+	padding: 40px;
+}
+
+
+/* cooki contents*/
+
+
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  background: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-left: 1200px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* this section only update form input data */
+.input-edit-data{
+	background-color:#9b8012;
+	margin:20px 500px;
+	padding: 30px;
+
+}
